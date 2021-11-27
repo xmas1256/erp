@@ -5,7 +5,7 @@ from pathlib import Path
 
 load_dotenv(os.path.join('.env'))
 WHERE = os.environ.get('WHERE')
-
+print(WHERE)
 
 class db:
     user = os.environ.get('db_user')
