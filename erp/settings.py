@@ -93,7 +93,7 @@ else:
             'USER': db.user,
             'PASSWORD': db.password,
             'HOST': db.host,
-            
+            'PORT': db.port
         }
     }
 
