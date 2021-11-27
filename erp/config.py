@@ -2,10 +2,11 @@ import os
 from dotenv import load_dotenv
 from pathlib import Path
 
-
-load_dotenv(os.path.join('.env'))
+basedir = os.path.abspath(os.path.dirname(__file__))
+load_dotenv(os.path.join(basedir, '.env'))
 WHERE = os.environ.get('WHERE')
 print(WHERE)
+print(basedir)
 
 class db:
     user = os.environ.get('db_user')
