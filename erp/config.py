@@ -11,5 +11,5 @@ class db:
     name = os.environ.get('db_name')
     host = os.environ.get('db_host')
     password = os.environ.get('db_password')
+    port = os.environ.get('db_port')
     
-    print(user, name, host, password)
