@@ -92,8 +92,7 @@ else:
             'NAME': db.name,
             'USER': db.user,
             'PASSWORD': db.password,
-            'HOST': db.host,
-            
+            'HOST': db.host
         }
     }
 
