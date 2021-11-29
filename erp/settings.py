@@ -89,10 +89,10 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'NAME': db.name,
-            'USER': db.user,
-            'PASSWORD': db.password,
-            'HOST': db.host
+            'NAME': str(db.name),
+            'USER': str(db.user),
+            'PASSWORD': str(db.password),
+            'HOST': str(db.host)
         }
     }
 
