@@ -89,8 +89,8 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'а0310901_erp',
-            'USER': 'а0310901_erp',
+            'NAME': 'а0310901_erpurgaz',
+            'USER': 'а0310901_erpurgaz',
             'PASSWORD': 'Urgaz214233',
             'HOST': '',
             'PORT': '3306'
