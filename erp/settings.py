@@ -89,10 +89,10 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'NAME': str(db.name),
-            'USER': str(db.user),
-            'PASSWORD': str(db.password),
-            'HOST': str(db.host)
+            'NAME': 'а0310901_erp',
+            'USER': 'а0310901_erp',
+            'PASSWORD': 'Urgaz214233',
+            'HOST': 'localhost'
         }
     }
 
