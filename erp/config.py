@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from pathlib import Path
 
 basedir = os.path.abspath(os.path.dirname(__file__))
-load_dotenv(os.path.join(basedir, '/.env'))
+load_dotenv(os.path.join(basedir, '.env'))
 WHERE = os.environ.get('WHERE')
 
 class db:
