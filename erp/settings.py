@@ -92,7 +92,7 @@ else:
             'NAME': 'а0310901_erp',
             'USER': 'а0310901_erp',
             'PASSWORD': 'Urgaz214233',
-            'HOST': 'localhost'
+            'HOST': '127.0.0.1'
         }
     }
 
